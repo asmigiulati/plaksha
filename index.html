@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /* Customize the Typed.js cursor */
+        .typed-cursor {
+            color: white; /* Change cursor color to red */
+            font-weight: 100;
+            font-size: 225px;
+             /* Change cursor thickness */
+        }
+    </style>
+</head>
+
+<body>
+<!--    hero section  -->
+    <div class="hero">
+        <div class="navigation">
+           <div class="container">
+               <div class="navbar">
+                   <div class="logo-toggle-container">
+                       <a href=""><img src="images/logo-green.png" alt=""></a>
+                       <span class ="toggle-box">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                       </span>
+                   </div>
+                   <ul class="menu">
+                       <li><a href="">ABOUT</a> </li>
+                       <li><a href="">PROGRAMS</a> </li>
+                       <li><a href="">CAMPUS</a> </li>
+                       <li><a href="">WORK</a> </li>
+                       <li><a href="">CONTACT</a> </li>
+                       <li><a href="">APPLY NOW</a></li>
+                   </ul>
+
+               </div>
+           </div>
+        </div>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <h1 class="topline">Reimagine</h1>
+                <h1><span class="multiText"></span></h1>
+
+            </div>
+        </div>
+    </div>
+<!--    done-->
+<!--    section 2 with cards-->
+<ul class="cards">
+    <li>
+        <a href="" class="card">
+            <img src="images/new%20pillar.png" class="card__image" alt="" />
+            <div class="card__overlay">
+                <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                    <div class="card__header-text">
+                        <h3 class="card__title">Reimagining technology education</h3>
+                        <span class="card__status">Pillar 1</span>
+                    </div>
+                </div>
+                <p class="card__description">Focused on interdisciplinary technology curriculum, integrating liberal arts and design with hands-on pedagogy and self-development</p>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="" class="card">
+            <img src="images/pillar%2002.png" class="card__image" alt="" />
+            <div class="card__overlay">
+                <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                    <div class="card__header-text">
+                        <h3 class="card__title">Enabling research and innovation ecosystem</h3>
+                        <span class="card__status">Pillar 2</span>
+                    </div>
+                </div>
+                <p class="card__description">Fueled by industry-sponsored research, industry-linked academia and start-up mentorships by top CXOs and entrepreneurs</p>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="" class="card">
+            <img src="images/pillar%2003.png" class="card__image" alt="" />
+            <div class="card__overlay">
+                <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                    <div class="card__header-text">
+                        <h3 class="card__title">Addressing grand challenges</h3>
+                        <span class="card__status">Pillar 3</span>
+                    </div>
+                </div>
+                <p class="card__description">Structured around real-time problems, impact-focused research and tomorrow’s technologies</p>
+            </div>
+        </a>
+    </li>
+</ul>
+<!--section 3-->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect=new Typed(".multiText",{strings:["Education","Innovation","Leadership","Technology"],loop:true,typeSpeed:100,
+         backSpeed:80,
+         backDelay:1500});
+        var typedScript = document.querySelector('script[src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"]');
+    </script>
+</body>
+</html>
